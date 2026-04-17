@@ -5,7 +5,7 @@ export const Person = ({ person }) => {
   const spouse = spouseBySex[sex] ?? 'spouse';
 
   const partnerText = isMarried
-    ? `My ${spouse} is ${partnerName}`
+    ? `${partnerName} is my ${spouse}`
     : 'I am not married';
 
   const hasAge = age != null;
